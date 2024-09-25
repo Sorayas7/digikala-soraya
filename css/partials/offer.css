@@ -1,0 +1,27 @@
+.offer {
+  width: 100%;
+  height: 242px;
+  margin-top: 16px;
+  /* background-color: rgb(209, 236, 169); */
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 17px; */
+  .offer-center {
+    width: 87%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: rgb(144, 237, 137); */
+    column-gap: 11px;
+    .offer-center-item {
+      .offer-center-item-image {
+        width: 322px;
+        height: 242px;
+        border-radius: var(--borderradiusM);
+        
+      }
+    }
+  }
+}
